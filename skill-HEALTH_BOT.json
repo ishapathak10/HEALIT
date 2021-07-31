@@ -1,0 +1,5123 @@
+{
+  "intents": [
+    {
+      "intent": "greetings_hi",
+      "examples": [
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "helloooiii"
+        },
+        {
+          "text": "hiiiii"
+        },
+        {
+          "text": "kia ora"
+        },
+        {
+          "text": "hiiii"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "namaste"
+        },
+        {
+          "text": "namaskar"
+        },
+        {
+          "text": "heyyoo"
+        },
+        {
+          "text": "hailo"
+        },
+        {
+          "text": "heyyyyyyy"
+        }
+      ],
+      "description": "different versions of hi"
+    },
+    {
+      "intent": "mrng_afternoon_evening",
+      "examples": [
+        {
+          "text": "gud afternoon"
+        },
+        {
+          "text": "gd evenin"
+        },
+        {
+          "text": "gd evening"
+        },
+        {
+          "text": "gud mrng"
+        },
+        {
+          "text": "gd mrng"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good afternon"
+        },
+        {
+          "text": "good afternoonn"
+        },
+        {
+          "text": "gud eevnin"
+        }
+      ]
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "mennu"
+        },
+        {
+          "text": "menu"
+        },
+        {
+          "text": "menuuu"
+        },
+        {
+          "text": "meenu"
+        },
+        {
+          "text": "meeenu"
+        },
+        {
+          "text": "mennnu"
+        },
+        {
+          "text": "menuu"
+        }
+      ]
+    },
+    {
+      "intent": "How_many_cases",
+      "examples": [
+        {
+          "text": "What is the stats on Corona Virus?"
+        },
+        {
+          "text": "Total Cases so Far"
+        },
+        {
+          "text": "How many cases so far?"
+        },
+        {
+          "text": "What are the stats on COVID-19?"
+        },
+        {
+          "text": "How many cases of Covid 19 has been detected?"
+        },
+        {
+          "text": "How many cases of covid 19 have been detected?"
+        },
+        {
+          "text": "How many cases of corona virus has been detected?"
+        }
+      ]
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "bie bie"
+        },
+        {
+          "text": "bbye"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "catch you later"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "talk to you soon"
+        },
+        {
+          "text": "bbyee"
+        },
+        {
+          "text": "bye bye"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Symptom-Node-Symptom-Check-1",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Diseases or drugs that weaken immune system",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Long-term stay at a care facility or nursing home",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "None of the above",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cancer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Obesity",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "menu_",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "menu",
+          "synonyms": [
+            "meeenu",
+            "meenu",
+            "entrees",
+            "dropdown",
+            "menus",
+            "menuuuu",
+            "menuuu",
+            "menuu"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Symptom-Node-Symptom-Check-3",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "New or increasing confusion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "New or continuous seizures",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Slurred speech",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "None of the above",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Severe difficulty waking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "New_Menu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Menu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Exit",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Confirmation_Yes_No",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "never",
+            "not",
+            "nope",
+            "naah",
+            "noit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "yeah",
+            "okay",
+            "yep",
+            "sure",
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Symptom_assessment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "symptom",
+          "synonyms": [
+            "symptoms",
+            "symtoms",
+            "symptons",
+            "diagnosis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "symptom check",
+          "synonyms": [
+            "check my symptoms",
+            "symptom",
+            "symptoms",
+            "do I have corona?",
+            "corona symptoms"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Symptom-Node-Gender-Question",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Female",
+          "synonyms": [
+            "females",
+            "woman",
+            "women",
+            "girl",
+            "feminine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Male",
+          "synonyms": [
+            "males",
+            "men",
+            "masculine",
+            "man",
+            "boys",
+            "macho"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Others",
+          "synonyms": [
+            "other"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cough_frequency",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "10 cough",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2 cough",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5 cough",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "menu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Corona_Info",
+          "synonyms": [
+            "Corona info",
+            "corona details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Corona_World_Count",
+          "synonyms": [
+            "Corona count world",
+            "world count",
+            "active cases in the world",
+            "active corona cases in the world"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Corona_India_Count",
+          "synonyms": [
+            "Corona count india",
+            "india count",
+            "active cases in india",
+            "active corona cases in india"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FAQ",
+          "synonyms": [
+            "faqs",
+            "info",
+            "forums",
+            "questions"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Symptom_Assessment",
+          "synonyms": [
+            "symptoms",
+            "symptom",
+            "symptons",
+            "symtoms",
+            "assessment",
+            "start screening",
+            "screening",
+            "symptoms check"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "user_types_corona_infographics",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "corona information",
+          "synonyms": [
+            "corona innformation",
+            "corona infographics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "information",
+          "synonyms": [
+            "info",
+            "details",
+            "data",
+            "knowledge",
+            "informations",
+            "resources"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "corona_infographics_menu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Entire_Info",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Corona Virus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "How Does it Spread",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Symptoms",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prevention",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Symptom-Node-Contact-Question",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "direct physical contact",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Other type of contact",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "direct care protect",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "direct care not protect",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "face to face",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "None of the above",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Mrng_afternoon_night",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good Afternoon",
+          "synonyms": [
+            "gud afternoon",
+            "afternoon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Evening",
+          "synonyms": [
+            "gd evening",
+            "gd evenin",
+            "Gud evening",
+            "Evening"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Morning",
+          "synonyms": [
+            "gd morning",
+            "gd mrng",
+            "gud morning",
+            "gud mrng",
+            "mrng",
+            "gm",
+            "mornings",
+            "morning"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Gasping-for-air-or-extreme-difficulty-breathign",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Unusual Sounds While Breathing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Heavy Breathing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fast Breathing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pressure on eyes while Breathing",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Goodbyes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "goodbye",
+          "synonyms": [
+            "bie bie",
+            "bye bye",
+            "adiós",
+            "goodbyes",
+            "adieu",
+            "adios",
+            "bye",
+            "farewell"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Symptom-Node-Symptom-Check-6",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cough",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fever or Feeling Feverish",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shortness of breadth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "None of the above",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Symptom-Node-Symptom-Check-4",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Coughing up blood",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "None of the above",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Signs of low blood pressure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Moderate to severe difficulty breathing",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Symptom-Node-Symptom-Check-2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "None of the above",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Severe constant dizziness or lightheadedness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Severe chest pain or pressure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gasping for air or extreme difficulty breathing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blue-colored lips or face",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fever",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "high fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "very high fever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "normal",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Symptoms-Node-Symptoms-Check-5",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Impaired Taste or Smell",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chills",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Muscle Pain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fatigue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Headache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diarrhea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nausea",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sore Throat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "None of the above",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "If User Says No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am sorry $name but you need to give an affirmation without it I can't proceed!!\nPlease confirm again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select again please",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "description": "Click on yes to proceed",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1595829312867",
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_3_1595830241250",
+      "previous_sibling": "node_7_1595830190258"
+    },
+    {
+      "type": "standard",
+      "title": "If User Says Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great I will now start your assessment. Please answer every question honestly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595829312867",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595831016197"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_7_1595830190258"
+    },
+    {
+      "type": "standard",
+      "title": "Slurred speech (new or worsening)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, Noted Moving on the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595843135862",
+      "context": {
+        "Symptom-Check-3-3": "Slurred speech (new or worsening)"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595848725848"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-3:(Slurred speech)",
+      "dialog_node": "node_7_1595846898588",
+      "previous_sibling": "node_3_1595846779576"
+    },
+    {
+      "type": "standard",
+      "title": "Severe difficulty waking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595843135862",
+      "context": {
+        "Symptom-Check-3-2": "Severe difficulty waking"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595848725848"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-3:(Severe difficulty waking)",
+      "dialog_node": "node_3_1595846779576",
+      "previous_sibling": "node_7_1595845956555"
+    },
+    {
+      "type": "standard",
+      "title": "New or continuous seizures",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, Noted Moving on to the next question"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595843135862",
+      "context": {
+        "Symptom-Check-3-4": "New or continuous seizures"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595848725848"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-3:(New or continuous seizures)",
+      "dialog_node": "node_4_1595847097031",
+      "previous_sibling": "node_7_1595846898588"
+    },
+    {
+      "type": "standard",
+      "title": "None of the above",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, Noted Moving on to the next question"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595843135862",
+      "context": {
+        "Symptom-Check-3-5": "None"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595848725848"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-3:(None of the above)",
+      "dialog_node": "node_4_1595847209920",
+      "previous_sibling": "node_4_1595847097031"
+    },
+    {
+      "type": "standard",
+      "title": "New or increasing confusion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595843135862",
+      "context": {
+        "Symptom-Check-3-1": "New or increasing confusion"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595848725848"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-3:(New or increasing confusion)",
+      "dialog_node": "node_7_1595845956555"
+    },
+    {
+      "type": "standard",
+      "title": "What are the preventions to it?",
+      "output": {
+        "generic": [
+          {
+            "title": "What are the preventions to it?",
+            "source": "https://i.ibb.co/NYTLwrF/5.png",
+            "description": "Information has been verified from WHO Website",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1595929536242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_25_1595930211348"
+      },
+      "dialog_node": "node_24_1595930211322",
+      "previous_sibling": "node_18_1595930191139"
+    },
+    {
+      "type": "standard",
+      "title": "How does it spread?",
+      "output": {
+        "generic": [
+          {
+            "title": "How Does Corona Virus Spread?",
+            "source": "https://i.ibb.co/y4YMgks/3.png",
+            "description": "Information has been verified from WHO Website",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1595929536242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1595930172268"
+      },
+      "dialog_node": "node_12_1595930172254",
+      "previous_sibling": "node_6_1595930151444"
+    },
+    {
+      "type": "standard",
+      "title": "What Is Corona Virus?",
+      "output": {
+        "generic": [
+          {
+            "title": "What is Corona Virus?",
+            "source": "https://i.ibb.co/d0yHy45/2.png",
+            "description": "Information has been verified from WHO Website",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1595929536242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595930151464"
+      },
+      "dialog_node": "node_6_1595930151444",
+      "previous_sibling": "node_5_1595929609485"
+    },
+    {
+      "type": "standard",
+      "title": "What are the Symptoms?",
+      "output": {
+        "generic": [
+          {
+            "title": "What are the symptoms of Corona Virus?",
+            "source": "https://i.ibb.co/LnkXDhd/4.png",
+            "description": "Information has been verified from WHO Website",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1595929536242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_19_1595930191162"
+      },
+      "dialog_node": "node_18_1595930191139",
+      "previous_sibling": "node_12_1595930172254"
+    },
+    {
+      "type": "standard",
+      "title": "Entire Info",
+      "output": {
+        "generic": [
+          {
+            "title": "COVID 19 Entire Information",
+            "source": "https://i.ibb.co/FJYjmXJ/1.png",
+            "description": "Information has been verified from WHO Website",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1595929536242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1595929743501"
+      },
+      "dialog_node": "node_5_1595929609485"
+    },
+    {
+      "type": "standard",
+      "title": "User Clicks Bye",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1595925675943",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595925929883"
+      },
+      "conditions": "@New_Menu:Exit",
+      "dialog_node": "node_5_1595926399745",
+      "previous_sibling": "node_1_1595925833538"
+    },
+    {
+      "type": "standard",
+      "title": "User clicks Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1595925675943",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "@New_Menu:Menu",
+      "dialog_node": "node_1_1595925833538"
+    },
+    {
+      "type": "standard",
+      "title": "collect name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice to meet you, $name"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "context": {
+        "name": "<? input.text.substring(0, 1).toUpperCase() + input.text.substring(1) ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1595827068923"
+    },
+    {
+      "type": "standard",
+      "title": "User Clicks Bye",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_21_1595930191162",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595925929883"
+      },
+      "conditions": "@New_Menu:Exit",
+      "dialog_node": "node_23_1595930191162",
+      "previous_sibling": "node_22_1595930191162"
+    },
+    {
+      "type": "standard",
+      "title": "User clicks Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_21_1595930191162",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "@New_Menu:Menu",
+      "dialog_node": "node_22_1595930191162"
+    },
+    {
+      "type": "standard",
+      "title": "Obesity",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595834151938",
+      "context": {
+        "Symptom-Check-1-3": "Obesity"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-1:Obesity",
+      "dialog_node": "node_10_1595835158747",
+      "previous_sibling": "node_4_1595835022058"
+    },
+    {
+      "type": "standard",
+      "title": "None of the above",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595834151938",
+      "context": {
+        "Symptom-Check-1-5": "None"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-1:(None of the above)",
+      "dialog_node": "node_3_1595835573407",
+      "previous_sibling": "node_7_1595835477820"
+    },
+    {
+      "type": "standard",
+      "title": "Diseases or drugs that weaken immune system",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595834151938",
+      "context": {
+        "Symptom-Check-1-2": "Diseases or drugs that weaken immune system"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-1:(Diseases or drugs that weaken immune system)",
+      "dialog_node": "node_4_1595835022058",
+      "previous_sibling": "node_8_1595834646412"
+    },
+    {
+      "type": "standard",
+      "title": "Long-term stay at a care facility or nursing home",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595834151938",
+      "context": {
+        "Symptom-Check-1-4": "Long-term stay at a care facility or nursing home"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-1:(Long-term stay at a care facility or nursing home)",
+      "dialog_node": "node_7_1595835477820",
+      "previous_sibling": "node_10_1595835158747"
+    },
+    {
+      "type": "standard",
+      "title": "Active Cancer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595834151938",
+      "context": {
+        "Symptom-Check-1-1": "Active Cancer"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-1:Cancer",
+      "dialog_node": "node_8_1595834646412"
+    },
+    {
+      "type": "standard",
+      "title": "no confirmation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1595842093840",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1595843135862"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_13_1595842093846",
+      "previous_sibling": "node_12_1595842093846"
+    },
+    {
+      "type": "standard",
+      "title": "yes confirmation",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_11_1595842093840",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_12_1595842093846"
+    },
+    {
+      "type": "standard",
+      "title": "Do you want anymore information?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do You Want Any More Information?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select From The Given Options",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_18_1595930191139",
+      "dialog_node": "node_19_1595930191162"
+    },
+    {
+      "type": "standard",
+      "title": "User Says No",
+      "output": {
+        "generic": [
+          {
+            "title": "Select From The Options Given",
+            "options": [
+              {
+                "label": "Access the Menu Again",
+                "value": {
+                  "input": {
+                    "text": "Menu"
+                  }
+                }
+              },
+              {
+                "label": "I want to stop this chat.",
+                "value": {
+                  "input": {
+                    "text": "Exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1595930151464",
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_9_1595930151465",
+      "previous_sibling": "node_8_1595930151465"
+    },
+    {
+      "type": "standard",
+      "title": "User Yes",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1595930151464",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1595926911401"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_8_1595930151465"
+    },
+    {
+      "type": "standard",
+      "title": "User Says No",
+      "output": {
+        "generic": [
+          {
+            "title": "Select From The Options Given",
+            "options": [
+              {
+                "label": "Access the Menu Again",
+                "value": {
+                  "input": {
+                    "text": "Menu"
+                  }
+                }
+              },
+              {
+                "label": "I want to stop this chat.",
+                "value": {
+                  "input": {
+                    "text": "Exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1595925450121",
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_10_1595925675943",
+      "previous_sibling": "node_5_1595925587415"
+    },
+    {
+      "type": "standard",
+      "title": "User Yes",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1595925450121",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1595829312867"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_5_1595925587415"
+    },
+    {
+      "type": "standard",
+      "title": "User Says No",
+      "output": {
+        "generic": [
+          {
+            "title": "Select From The Options Given",
+            "options": [
+              {
+                "label": "Access the Menu Again",
+                "value": {
+                  "input": {
+                    "text": "Menu"
+                  }
+                }
+              },
+              {
+                "label": "I want to stop this chat.",
+                "value": {
+                  "input": {
+                    "text": "Exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1595929743501",
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_3_1595929743521",
+      "previous_sibling": "node_2_1595929743521"
+    },
+    {
+      "type": "standard",
+      "title": "User Yes",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1595929743501",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1595926911401"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_2_1595929743521"
+    },
+    {
+      "type": "standard",
+      "title": "Do you want anymore information?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do You Want Any More Information?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select From The Given Options",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1595930151444",
+      "dialog_node": "node_7_1595930151464"
+    },
+    {
+      "type": "standard",
+      "title": "Prevention",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1595926911401",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_24_1595930211322"
+      },
+      "conditions": "@corona_infographics_menu:Prevention",
+      "dialog_node": "node_1_1595930487777",
+      "previous_sibling": "node_7_1595930454869"
+    },
+    {
+      "type": "standard",
+      "title": "What is Corona Virus?",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1595926911401",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1595930151444"
+      },
+      "conditions": "@corona_infographics_menu:(Corona Virus)",
+      "dialog_node": "node_4_1595930110610",
+      "previous_sibling": "node_5_1595929633810"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms of corona virus?",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1595926911401",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_18_1595930191139"
+      },
+      "conditions": "@corona_infographics_menu:Symptoms",
+      "dialog_node": "node_7_1595930454869",
+      "previous_sibling": "node_7_1595930327105"
+    },
+    {
+      "type": "standard",
+      "title": "How does it spread?",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1595926911401",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_12_1595930172254"
+      },
+      "conditions": "@corona_infographics_menu:(How Does it Spread)",
+      "dialog_node": "node_7_1595930327105",
+      "previous_sibling": "node_4_1595930110610"
+    },
+    {
+      "type": "standard",
+      "title": "Entire Info",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1595926911401",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595929609485"
+      },
+      "conditions": "@corona_infographics_menu:Entire_Info",
+      "dialog_node": "node_5_1595929633810"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I have noted this. Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1595857152502",
+      "context": {
+        "international_travel_no": "no"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595858619879"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_6_1595858507088",
+      "previous_sibling": "node_2_1595858448209"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I have noted this. Moving on to the last question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1595857152502",
+      "context": {
+        "international_travel_yes": "yes"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595858619879"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_2_1595858448209"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom Node Symptom Check 4",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have any of the following symptoms?",
+            "options": [
+              {
+                "label": "Moderate to severe difficulty breathing (unable to speak full sentences)",
+                "value": {
+                  "input": {
+                    "text": "Moderate to severe difficulty breathing"
+                  }
+                }
+              },
+              {
+                "label": "Coughing up blood (more than about 1 teaspoon)",
+                "value": {
+                  "input": {
+                    "text": "Coughing up blood"
+                  }
+                }
+              },
+              {
+                "label": "Signs of low blood pressure (feeling cold, pale, clammy skin, light-headed, too weak to stand)",
+                "value": {
+                  "input": {
+                    "text": "Signs of low blood pressure"
+                  }
+                }
+              },
+              {
+                "label": "None of the above",
+                "value": {
+                  "input": {
+                    "text": "None of the above"
+                  }
+                }
+              }
+            ],
+            "description": "\"Answer each question honestly\"",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "dialog_node": "node_5_1595848725848",
+      "previous_sibling": "node_10_1595843135862"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms Node Symptom Check 2",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have any of the following life-threatening Symptoms?",
+            "options": [
+              {
+                "label": "Gasping for air or extreme difficulty breathing",
+                "value": {
+                  "input": {
+                    "text": "Gasping for air or extreme difficulty breathing"
+                  }
+                }
+              },
+              {
+                "label": "Blue-colored lips or face",
+                "value": {
+                  "input": {
+                    "text": "Blue-colored lips or face"
+                  }
+                }
+              },
+              {
+                "label": "Severe chest pain or pressure",
+                "value": {
+                  "input": {
+                    "text": "Severe chest pain or pressure"
+                  }
+                }
+              },
+              {
+                "label": "Severe constant dizziness or lightheadedness",
+                "value": {
+                  "input": {
+                    "text": "Severe constant dizziness or lightheadedness"
+                  }
+                }
+              },
+              {
+                "label": "None of the above",
+                "value": {
+                  "input": {
+                    "text": "None of the above"
+                  }
+                }
+              }
+            ],
+            "description": "\"These questions need to be answered honestly\"",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "dialog_node": "node_5_1595836202326",
+      "previous_sibling": "node_7_1595834151938"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom Node Contact Question",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In the past 14 days, have you had close contact* with someone with known or suspected COVID-19 or possible COVID-19?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select from the options given below",
+            "options": [
+              {
+                "label": "I have provided direct care to such a person, with the use of a protective mask and gloves",
+                "value": {
+                  "input": {
+                    "text": "direct care protect"
+                  }
+                }
+              },
+              {
+                "label": "I have provided direct care to such a person, without the use of a protective mask and gloves",
+                "value": {
+                  "input": {
+                    "text": "direct care not protect"
+                  }
+                }
+              },
+              {
+                "label": "I had direct physical contact with such a person",
+                "value": {
+                  "input": {
+                    "text": "direct physical contact"
+                  }
+                }
+              },
+              {
+                "label": "I had face-to-face contact with such a person within 1 meter (3 feet) for longer than 15 minutes",
+                "value": {
+                  "input": {
+                    "text": "face to face"
+                  }
+                }
+              },
+              {
+                "label": "Other type of contact",
+                "value": {
+                  "input": {
+                    "text": "Other type of contact"
+                  }
+                }
+              },
+              {
+                "label": "None of the above",
+                "value": {
+                  "input": {
+                    "text": "None of the above"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "dialog_node": "node_5_1595858619879",
+      "previous_sibling": "node_4_1595857152502"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom Node Symptom Check 3",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have any of these life-threatening symptoms?",
+            "options": [
+              {
+                "label": "New or increasing confusion",
+                "value": {
+                  "input": {
+                    "text": "New or increasing confusion"
+                  }
+                }
+              },
+              {
+                "label": "Severe difficulty waking",
+                "value": {
+                  "input": {
+                    "text": "Severe difficulty waking"
+                  }
+                }
+              },
+              {
+                "label": "Slurred speech (new or worsening)",
+                "value": {
+                  "input": {
+                    "text": "Slurred speech"
+                  }
+                }
+              },
+              {
+                "label": "New or continuous seizures",
+                "value": {
+                  "input": {
+                    "text": "New or continuous seizures"
+                  }
+                }
+              },
+              {
+                "label": "None of the above",
+                "value": {
+                  "input": {
+                    "text": "None of the above"
+                  }
+                }
+              }
+            ],
+            "description": "\"Answer each question honestly\"",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "dialog_node": "node_10_1595843135862",
+      "previous_sibling": "node_5_1595836202326"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms Node Symptom Check 1",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have any of the following Symptoms?",
+            "options": [
+              {
+                "label": "Active cancer",
+                "value": {
+                  "input": {
+                    "text": "Cancer"
+                  }
+                }
+              },
+              {
+                "label": "Diseases or drugs that weaken immune system",
+                "value": {
+                  "input": {
+                    "text": "Diseases or drugs that weaken immune system"
+                  }
+                }
+              },
+              {
+                "label": "Obesity",
+                "value": {
+                  "input": {
+                    "text": "Obesity"
+                  }
+                }
+              },
+              {
+                "label": "Long-term stay at a care facility or nursing home",
+                "value": {
+                  "input": {
+                    "text": "Long-term stay at a care facility or nursing home"
+                  }
+                }
+              },
+              {
+                "label": "None of the above",
+                "value": {
+                  "input": {
+                    "text": "None of the above"
+                  }
+                }
+              }
+            ],
+            "description": "\"These questions need to be answered honestly\"",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "dialog_node": "node_7_1595834151938",
+      "previous_sibling": "node_1_1595833258827"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom Node Symptom Check 5",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have any of the following symptoms?",
+            "options": [
+              {
+                "label": "Fatigue",
+                "value": {
+                  "input": {
+                    "text": "Fatigue"
+                  }
+                }
+              },
+              {
+                "label": "Muscle Pain",
+                "value": {
+                  "input": {
+                    "text": "Muscle Pain"
+                  }
+                }
+              },
+              {
+                "label": "Chills",
+                "value": {
+                  "input": {
+                    "text": "Chills"
+                  }
+                }
+              },
+              {
+                "label": "Headache",
+                "value": {
+                  "input": {
+                    "text": "Headache"
+                  }
+                }
+              },
+              {
+                "label": "Diarrhea",
+                "value": {
+                  "input": {
+                    "text": "Diarrhea"
+                  }
+                }
+              },
+              {
+                "label": "Nausea",
+                "value": {
+                  "input": {
+                    "text": "Nausea"
+                  }
+                }
+              },
+              {
+                "label": "Sore Throat",
+                "value": {
+                  "input": {
+                    "text": "Sore Throat"
+                  }
+                }
+              },
+              {
+                "label": "Impaired Taste or Smell",
+                "value": {
+                  "input": {
+                    "text": "Impaired Taste or Smell"
+                  }
+                }
+              },
+              {
+                "label": "None of the above",
+                "value": {
+                  "input": {
+                    "text": "None of the above"
+                  }
+                }
+              }
+            ],
+            "description": "\"Answer each of the question honestly\"",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "dialog_node": "node_7_1595849834969",
+      "previous_sibling": "node_5_1595848725848"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom Node Age Question",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your age?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "conditions": "",
+      "dialog_node": "node_1_1595833258827",
+      "previous_sibling": "node_5_1595831016197"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms Node International Travel Question",
+      "output": {
+        "generic": [
+          {
+            "title": "Have you traveled outside of the country or been on a cruise in the last 14 days?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "description": "\"Answer the question honestly\"",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "dialog_node": "node_4_1595857152502",
+      "previous_sibling": "node_5_1595850815579"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom Node Symptom Check 6",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have any of the following symptoms?",
+            "options": [
+              {
+                "label": "Fever or Feeling Feverish",
+                "value": {
+                  "input": {
+                    "text": "Fever or Feeling Feverish"
+                  }
+                }
+              },
+              {
+                "label": "Shortness of breath (not severe)",
+                "value": {
+                  "input": {
+                    "text": "Shortness of breath "
+                  }
+                }
+              },
+              {
+                "label": "Cough",
+                "value": {
+                  "input": {
+                    "text": "Cough"
+                  }
+                }
+              },
+              {
+                "label": "None of the Above",
+                "value": {
+                  "input": {
+                    "text": "None of the above"
+                  }
+                }
+              }
+            ],
+            "description": "\"Answer each question honestly\"",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "dialog_node": "node_5_1595850815579",
+      "previous_sibling": "node_7_1595849834969"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms Node-Gender Question",
+      "output": {
+        "generic": [
+          {
+            "title": "What is your sex?",
+            "options": [
+              {
+                "label": "Male",
+                "value": {
+                  "input": {
+                    "text": "Male"
+                  }
+                }
+              },
+              {
+                "label": "Female",
+                "value": {
+                  "input": {
+                    "text": "Female"
+                  }
+                }
+              },
+              {
+                "label": "Others",
+                "value": {
+                  "input": {
+                    "text": "Others"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595831661595",
+      "context": {},
+      "dialog_node": "node_5_1595831016197"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "LOW RISK",
+            "source": "https://i.ibb.co/xqxXbfq/White-and-Pink-Beauty-Logo.png",
+            "description": "Recommendation: Follow preventive measures.",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "$name your symptoms do not suggest that you have COVID-19. Continue following the common measures and government directives to avoid contracting COVID-19. Remember that your symptoms may also result from other diseases and may require medical consultation - this interview targets the COVID-19 infection. If your symptoms seem severe and you are worried, contact your doctor or local health authorities."
+              },
+              {
+                "text": "\nWhat should you do?\n\n1)Take preventive measures:\nSince you have no symptoms that may suggest COVID-19 and you have not been in contact with a confirmed or probable case of COVID-19 disease, there is little reason to suspect that you are currently infected. You do not need to seek medical consultation, contacting local authorities nor quarantine; however, we strongly recommend taking preventative measures, strictly following your regional public authority guidelines.\n\n2)Maintain strict hygiene:\nIt is strongly recommended for you to take simple precautions that can reduce your chances of being infected in the future or spreading the virus:\nRegularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water for at least 20 seconds\n\n3)Avoid touching eyes, nose and mouth\nCover your mouth and nose with your bent elbow or tissue when you cough or sneeze\nDisinfect your hands after sneezing.\nDo not share your cups, plates, cutlery, and other household utensils with family members.\n\n4)Maintain social distancing\nSocial/physical distancing is critical to stopping COVID-19 transmission. Maintain a distance of at least 1 meter (3 feet) between yourself and others, even if they are not exhibiting symptoms of COVID-19.\n\n5)Avoid public places – especially if you are an older person or have a condition such as diabetes, heart, or lung disease.\n\n6)Monitor your health\nYou are strongly advised to regularly use this diagnostic tool, particularly should your circumstances change, such as the occurrence of new symptoms or contact with an infected person."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1595859697645",
+      "conditions": "$Symptom-Check-1-5 && $Symptom-Check-2-5 && $Symptom-Check-3-5 && $Symptom-Check-4-4 && $Symptom-Check-5-9 && $Symptom-Check-6-4 || $fever-1 && $international_travel_no && $contact-6",
+      "dialog_node": "response_7_1595920719197",
+      "previous_sibling": "response_3_1595923920104"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "MEDIUM RISK",
+            "source": "https://i.ibb.co/FWbbDTT/2.png",
+            "description": "Recommendation: Call a doctor",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Your answers do not suggest that you have the COVID-19. However, your symptoms are worrisome and require medical consultation."
+              },
+              {
+                "text": "\nWhat should you do?\n\n1)Call a doctor or healthcare facility\nCall your GP in advance and tell him or her about your symptoms. The doctor will ask you about your current complaints and medical history, and he or she may decide to invite you to come in for a check-up. If your symptoms seem very severe, suddenly get worse, and you are worried, go to your nearest Emergency Department (call in advance if possible) or call an emergency number.\n\n2)When should you call 102 or your local emergency number?\nYou have severe trouble breathing, that has started recently\nYour fever climbs over high (over 40°C, 104°F).\n\n3)Wash your hands often\nYour hands are a carrier for the coronavirus. Every time you touch your face area, cough into your palms, or go to the toilet, your hands become contaminated and spread the virus to everything you come into contact with. It is crucial, for the safety of your household members, that you clean your hands regularly with soap and water or an alcohol-based rub.\n\n4)Maintain social distancing\nSocial/physical distancing is critical to stopping COVID-19 transmission. Maintain a distance of at least 1 meter (3 feet) between yourself and others, even if they are not exhibiting symptoms of COVID-19.\n\n5)Avoid public places – especially if you are an older person or have a condition such as diabetes, heart, or lung disease."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595859697645",
+      "conditions": "$Symptom-Check-3-1 || $Symptom-Check-3-2 || $Symptom-Check-3-3 || $Symptom-Check-3-4 && $Symptom-Check-4-3 && $Symptom-Check-5-1 || $Symptom-Check-5-2 || $Symptom-Check-5-3 || $Symptom-Check-5-4 || $Symptom-Check-5-5 || $Symptom-Check-5-6 || $Symptom-Check-5-7 || $Symptom-Check-5-8 && $Symptom-Check-6-2 || $fever-2 || $cough-2 || $cough-3 && $contact-1",
+      "dialog_node": "response_3_1595923920104",
+      "previous_sibling": "response_9_1595914644754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "HIGH RISK",
+            "source": "https://i.ibb.co/pzWcPfc/1.png",
+            "description": "Recommendation: Call the emergency number. Avoid all contact.",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Your symptoms are very serious and you may have COVID-19."
+              },
+              {
+                "text": "\nWhat should you do?\n\n1)Immediately separate yourself from other people and animals in your house:\nIf possible, isolate yourself in a separate room, away from other members of your household. If this is not possible, keep a distance of at least 1 meter from others and wear a protective surgical mask. Avoid all interaction with household pets.\n\n2)Call the emergency number:\nCall the emergency number (102). Your symptoms are severe and you may need to be transported to a medical facility.\n\n3)Wear a surgical face mask:\nPut on a surgical face mask whenever somebody is about to enter the same room or vehicle as you. Put on a surgical face mask before entering an ambulance or medical facility. People interacting with you should wear face masks as well, particularly if you have difficulty breathing."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1595859697645",
+      "conditions": "$Symptom-Check-2-1 && $Breathing || $Symptom-Check-2-2 || $Symptom-Check-2-3 || $Symptom-Check-2-4 && $Symptom-Check-4-1 || $Symptom-Check-4-2 && $fever-3 || $fever-4 || $cough-1 && $international_travel_yes && $contact-2 || $contact-3 || $contact-4 || $contact-5",
+      "dialog_node": "response_9_1595914644754"
+    },
+    {
+      "type": "standard",
+      "title": "User Clicks Bye",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1595929743521",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595925929883"
+      },
+      "conditions": "@New_Menu:Exit",
+      "dialog_node": "node_5_1595929743521",
+      "previous_sibling": "node_4_1595929743521"
+    },
+    {
+      "type": "standard",
+      "title": "User clicks Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1595929743521",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "@New_Menu:Menu",
+      "dialog_node": "node_4_1595929743521"
+    },
+    {
+      "type": "standard",
+      "title": "no confirmation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595842045183",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1595843135862"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_10_1595842045188",
+      "previous_sibling": "node_9_1595842045188"
+    },
+    {
+      "type": "standard",
+      "title": "yes confirmation",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1595842045183",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_9_1595842045188"
+    },
+    {
+      "type": "standard",
+      "title": "If User Says No ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am sorry but you need to give an affirmation without it I can't proceed!!\nPlease confirm again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select again please",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "description": "Click on yes to proceed",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595832082365",
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_2_1595832583206",
+      "previous_sibling": "node_7_1595832354785"
+    },
+    {
+      "type": "standard",
+      "title": "Yes Confirmation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great we'll begin now"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595832082365",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_7_1595832354785"
+    },
+    {
+      "type": "standard",
+      "title": "User Clicks Bye",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_27_1595930211348",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595925929883"
+      },
+      "conditions": "@New_Menu:Exit",
+      "dialog_node": "node_29_1595930211348",
+      "previous_sibling": "node_28_1595930211348"
+    },
+    {
+      "type": "standard",
+      "title": "User clicks Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_27_1595930211348",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "@New_Menu:Menu",
+      "dialog_node": "node_28_1595930211348"
+    },
+    {
+      "type": "standard",
+      "title": "Severe chest pain or pressure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted your response"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you have any other symptoms?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595836202326",
+      "context": {
+        "Symptom-Check-2-3": "Severe chest pain or pressure"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-2:(Severe chest pain or pressure)",
+      "dialog_node": "node_14_1595842492029",
+      "previous_sibling": "node_2_1595842269881"
+    },
+    {
+      "type": "standard",
+      "title": "None of the above",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595836202326",
+      "context": {
+        "Symptom-Check-2-5": "None"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1595843135862"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-2:(None of the above)",
+      "dialog_node": "node_10_1595842755191",
+      "previous_sibling": "node_17_1595842694429"
+    },
+    {
+      "type": "standard",
+      "title": "Blue-colored lips or face",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted your response"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you have any other symptoms?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595836202326",
+      "context": {
+        "Symptom-Check-2-2": "Blue-coloured lips or face"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-2:(Blue-colored lips or face)",
+      "dialog_node": "node_2_1595842269881",
+      "previous_sibling": "node_2_1595839723361"
+    },
+    {
+      "type": "standard",
+      "title": "Severe constant dizziness or lightheadedness",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted your response"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you have any other symptoms?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595836202326",
+      "context": {
+        "Symptom-Check-2-4": "Severe constant dizziness or lightheadedness"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-2:(Severe constant dizziness or lightheadedness)",
+      "dialog_node": "node_17_1595842694429",
+      "previous_sibling": "node_14_1595842492029"
+    },
+    {
+      "type": "standard",
+      "title": "Gasping for air or extreme difficulty breathing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$name I'll be asking a few more questions. I need you to answer them very carefully."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "How are you breathing right now?",
+            "options": [
+              {
+                "label": "Fast Breathing",
+                "value": {
+                  "input": {
+                    "text": "Fast Breathing"
+                  }
+                }
+              },
+              {
+                "label": "Heavy Breathing",
+                "value": {
+                  "input": {
+                    "text": "Heavy Breathing"
+                  }
+                }
+              },
+              {
+                "label": "Unusual Sounds While Breathing",
+                "value": {
+                  "input": {
+                    "text": "Unusual Sounds While Breathing"
+                  }
+                }
+              },
+              {
+                "label": "Pressure on eyes while Breathing",
+                "value": {
+                  "input": {
+                    "text": "Pressure on eyes while Breathing"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595836202326",
+      "context": {
+        "Symptom-Check-2-1": "Gasping for air or extreme difficulty breathing"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-2:(Gasping for air or extreme difficulty breathing)",
+      "dialog_node": "node_2_1595839723361"
+    },
+    {
+      "type": "standard",
+      "title": "If user again says NO!!!",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1595830241250",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1595830241250"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_5_1595830865892",
+      "previous_sibling": "node_1_1595830790165"
+    },
+    {
+      "type": "standard",
+      "title": "If user says Yes now!!!",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1595830241250",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595830190258"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_1_1595830790165"
+    },
+    {
+      "type": "standard",
+      "title": "CoronaVirus InforGraphics",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can provide this info on COVID-19."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select from the options listed below",
+            "options": [
+              {
+                "label": "Entire Information On COVID-19",
+                "value": {
+                  "input": {
+                    "text": "Entire_Info"
+                  }
+                }
+              },
+              {
+                "label": "What is Corona Virus",
+                "value": {
+                  "input": {
+                    "text": "Corona Virus"
+                  }
+                }
+              },
+              {
+                "label": "How Does it Spread",
+                "value": {
+                  "input": {
+                    "text": "How Does it Spread"
+                  }
+                }
+              },
+              {
+                "label": "Symptoms of COVID 19",
+                "value": {
+                  "input": {
+                    "text": "Symptoms"
+                  }
+                }
+              },
+              {
+                "label": "Prevention from COVID 19",
+                "value": {
+                  "input": {
+                    "text": "Prevention"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1595827233708",
+      "conditions": "@menu:Corona_Info",
+      "dialog_node": "node_8_1595926911401",
+      "previous_sibling": "node_3_1595829312867"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms Assessment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay...Are you ready to get started?\nRecommendations from this bot are not medical advice. In the case of a medical emergency, please dial 102. For medical advice, please contact your healthcare provider."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1595827233708",
+      "conditions": "@menu:Symptom_Assessment",
+      "dialog_node": "node_3_1595829312867"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.ibb.co/wM6J1jw/4.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1596008985847",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "now().after('12:00:00') && now().before('16:59:59')",
+      "dialog_node": "response_10_1596009209006",
+      "previous_sibling": "response_2_1596009029288"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.ibb.co/yRF2Kzs/5.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1596008985847",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "now().after('17:00:00')",
+      "dialog_node": "response_9_1596010776965",
+      "previous_sibling": "response_10_1596009209006"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.ibb.co/F02yw2Y/3-1.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1596008985847",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "now().after('04:00:00') && now().before('11:59:59')",
+      "dialog_node": "response_2_1596009029288"
+    },
+    {
+      "type": "standard",
+      "title": "Age response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595833258827",
+      "context": {
+        "Age": "@sys-number"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595834151938"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_10_1595833644105"
+    },
+    {
+      "type": "standard",
+      "title": "None of the above",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595848725848",
+      "context": {
+        "Symptom-Check-4-4": "None"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595849834969"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-4:(None of the above)",
+      "dialog_node": "node_7_1595849767989",
+      "previous_sibling": "node_2_1595849654443"
+    },
+    {
+      "type": "standard",
+      "title": "Coughing up blood (more than about 1 teaspoon)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595848725848",
+      "context": {
+        "Symptom-Check-4-2": "Coughing up blood"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595849834969"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-4:(Coughing up blood)",
+      "dialog_node": "node_4_1595849581052",
+      "previous_sibling": "node_9_1595849295983"
+    },
+    {
+      "type": "standard",
+      "title": "Signs of low blood pressure (feeling cold, pale, clammy skin, light-headed, too weak to stand)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595848725848",
+      "context": {
+        "Symptom-Check-4-3": "Signs of low blood pressure"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595849834969"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-4:(Signs of low blood pressure)",
+      "dialog_node": "node_2_1595849654443",
+      "previous_sibling": "node_4_1595849581052"
+    },
+    {
+      "type": "standard",
+      "title": "Moderate to severe difficulty breathing (unable to speak full sentences)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595848725848",
+      "context": {
+        "Symptom-Check-4-1": "Moderate to severe difficulty breathing"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595849834969"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-4:(Moderate to severe difficulty breathing)",
+      "dialog_node": "node_9_1595849295983"
+    },
+    {
+      "type": "standard",
+      "title": "User Says No",
+      "output": {
+        "generic": [
+          {
+            "title": "Select From The Options Given",
+            "options": [
+              {
+                "label": "Access the Menu Again",
+                "value": {
+                  "input": {
+                    "text": "Menu"
+                  }
+                }
+              },
+              {
+                "label": "I want to stop this chat.",
+                "value": {
+                  "input": {
+                    "text": "Exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_13_1595930172268",
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_15_1595930172268",
+      "previous_sibling": "node_14_1595930172268"
+    },
+    {
+      "type": "standard",
+      "title": "User Yes",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_13_1595930172268",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1595926911401"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_14_1595930172268"
+    },
+    {
+      "type": "standard",
+      "title": "Results of Assessment Test",
+      "parent": "node_10_1595925493999",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1595925450121"
+      },
+      "dialog_node": "node_7_1595859697645",
+      "previous_sibling": "node_10_1595831661595"
+    },
+    {
+      "type": "standard",
+      "title": "Do you want to Assess Again?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do You Want To Assess Yourself Again?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select From The Given Options",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595925493999",
+      "dialog_node": "node_1_1595925450121",
+      "previous_sibling": "node_7_1595859697645"
+    },
+    {
+      "type": "folder",
+      "title": "Symptom Assessment",
+      "parent": "node_10_1595925493999",
+      "dialog_node": "node_10_1595831661595"
+    },
+    {
+      "type": "standard",
+      "title": "If user again says NO!!!",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1595832583206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595832583206"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_4_1595832583221",
+      "previous_sibling": "node_3_1595832583221"
+    },
+    {
+      "type": "standard",
+      "title": "If user says Yes now!!!",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1595832583206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595832354785"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_3_1595832583221"
+    },
+    {
+      "type": "standard",
+      "title": "Do you want anymore information?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do You Want Any More Information?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select From The Given Options",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595929609485",
+      "dialog_node": "node_1_1595929743501"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "parent": "node_2_1595842269881",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1595843135862"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_6_1595842439079",
+      "previous_sibling": "node_4_1595842404149"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "parent": "node_2_1595842269881",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_4_1595842404149"
+    },
+    {
+      "type": "standard",
+      "title": "5 times cough",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted this down. This might be a symptom I'll tell you the results after all questions have been answered."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1595857673933",
+      "context": {
+        "cough-2": "5 times in a min"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595857152502"
+      },
+      "conditions": "@cough_frequency:(5 cough)",
+      "dialog_node": "node_4_1595858054977",
+      "previous_sibling": "node_3_1595857956981"
+    },
+    {
+      "type": "standard",
+      "title": "2 times cough",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted this down. This might be a symptom I'll tell you the results after all questions have been answered."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1595857673933",
+      "context": {
+        "cough-3": "2 times in a min"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595857152502"
+      },
+      "conditions": "@cough_frequency:(2 cough)",
+      "dialog_node": "node_10_1595858111388",
+      "previous_sibling": "node_4_1595858054977"
+    },
+    {
+      "type": "standard",
+      "title": "10 times coughing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted this down. This might be a symptom I'll tell you the results after all questions have been answered."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1595857673933",
+      "context": {
+        "cough-1": "10 times in a min"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595857152502"
+      },
+      "conditions": "@cough_frequency:(10 cough)",
+      "dialog_node": "node_3_1595857956981"
+    },
+    {
+      "type": "standard",
+      "title": "Do you want anymore information?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do You Want Any More Information?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select From The Given Options",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_24_1595930211322",
+      "dialog_node": "node_25_1595930211348"
+    },
+    {
+      "type": "standard",
+      "title": "User Clicks Bye",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1595930151465",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595925929883"
+      },
+      "conditions": "@New_Menu:Exit",
+      "dialog_node": "node_11_1595930151465",
+      "previous_sibling": "node_10_1595930151465"
+    },
+    {
+      "type": "standard",
+      "title": "User clicks Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1595930151465",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "@New_Menu:Menu",
+      "dialog_node": "node_10_1595930151465"
+    },
+    {
+      "type": "standard",
+      "title": "Female",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595831016197",
+      "context": {
+        "gender": "Female"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1595833258827"
+      },
+      "conditions": "@Symptom-Node-Gender-Question:Female",
+      "dialog_node": "node_4_1595831975217",
+      "previous_sibling": "node_2_1595831924528"
+    },
+    {
+      "type": "standard",
+      "title": "Others",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595831016197",
+      "context": {
+        "gender": "Others"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1595833258827"
+      },
+      "conditions": "@Symptom-Node-Gender-Question:Others",
+      "dialog_node": "node_9_1595832014315",
+      "previous_sibling": "node_4_1595831975217"
+    },
+    {
+      "type": "standard",
+      "title": "Male",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595831016197",
+      "context": {
+        "gender": "Male"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1595833258827"
+      },
+      "conditions": "@Symptom-Node-Gender-Question:Male",
+      "dialog_node": "node_2_1595831924528"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {},
+      "parent": "node_17_1595842694429",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1595843135862"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_19_1595842694437",
+      "previous_sibling": "node_18_1595842694437"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1595842694429",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_18_1595842694437"
+    },
+    {
+      "type": "standard",
+      "title": "None of the above",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595850815579",
+      "context": {
+        "Symptom-Check-6-4": "none"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595857152502"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-6:(None of the above)",
+      "dialog_node": "node_9_1595858290269",
+      "previous_sibling": "node_9_1595857673933"
+    },
+    {
+      "type": "standard",
+      "title": "Cough",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$name select from the following options:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What is your cough frequency?",
+            "options": [
+              {
+                "label": "10 times in a minute",
+                "value": {
+                  "input": {
+                    "text": "10 cough"
+                  }
+                }
+              },
+              {
+                "label": "5 times in a minute",
+                "value": {
+                  "input": {
+                    "text": "5 cough"
+                  }
+                }
+              },
+              {
+                "label": "2 times in a minute",
+                "value": {
+                  "input": {
+                    "text": "2 cough"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595850815579",
+      "context": {
+        "Symptom-Check-6-3": "Cough"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-6:Cough",
+      "dialog_node": "node_9_1595857673933",
+      "previous_sibling": "node_6_1595857567159"
+    },
+    {
+      "type": "standard",
+      "title": "Shortness of breath",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595850815579",
+      "context": {
+        "Symptom-Check-6-2": "Shortness of breath"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595857152502"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-6:(Shortness of breadth)",
+      "dialog_node": "node_6_1595857567159",
+      "previous_sibling": "node_1_1595855362342"
+    },
+    {
+      "type": "standard",
+      "title": "Fever or feeling Feverish",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$name I will be taking some more details."
+              },
+              {
+                "text": "For this, you will need to check your body temperature via, an infrared thermometer or a normal one"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select from one of the temperature range",
+            "options": [
+              {
+                "label": "Below 34° C",
+                "value": {
+                  "input": {
+                    "text": "normal "
+                  }
+                }
+              },
+              {
+                "label": "Between 34° C to 38° C",
+                "value": {
+                  "input": {
+                    "text": "fever"
+                  }
+                }
+              },
+              {
+                "label": "Between 38° C to 39.5° C",
+                "value": {
+                  "input": {
+                    "text": "high fever"
+                  }
+                }
+              },
+              {
+                "label": "Above 39.5° C",
+                "value": {
+                  "input": {
+                    "text": "very high fever"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595850815579",
+      "context": {
+        "Symptom-Check-6-1": "fever"
+      },
+      "conditions": "@Symptom-Node-Symptom-Check-6:(Fever or Feeling Feverish)",
+      "dialog_node": "node_1_1595855362342"
+    },
+    {
+      "type": "standard",
+      "title": "if user types menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1596007680891",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "#menu || @menu_",
+      "dialog_node": "node_8_1596008412330",
+      "previous_sibling": "node_4_1596008258952"
+    },
+    {
+      "type": "standard",
+      "title": "If user types goodbye",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1596007680891",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595925929883"
+      },
+      "conditions": "#goodbyes || @Goodbyes",
+      "dialog_node": "node_4_1596008258952",
+      "previous_sibling": "node_4_1596007841849"
+    },
+    {
+      "type": "standard",
+      "title": "If user types corona infographics",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1596007680891",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1595926911401"
+      },
+      "conditions": "@user_types_corona_infographics",
+      "dialog_node": "node_4_1596007841849",
+      "previous_sibling": "node_8_1596007418360"
+    },
+    {
+      "type": "folder",
+      "title": "greetings",
+      "parent": "node_2_1596007680891",
+      "dialog_node": "node_3_1596008716103",
+      "previous_sibling": "node_8_1596008412330"
+    },
+    {
+      "type": "standard",
+      "title": "if user type symptom assessment",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1596007680891",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1595829312867"
+      },
+      "conditions": "@Symptom_assessment",
+      "dialog_node": "node_8_1596007418360"
+    },
+    {
+      "type": "standard",
+      "title": "User Clicks Bye",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_15_1595930172268",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595925929883"
+      },
+      "conditions": "@New_Menu:Exit",
+      "dialog_node": "node_17_1595930172268",
+      "previous_sibling": "node_16_1595930172268"
+    },
+    {
+      "type": "standard",
+      "title": "User clicks Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_15_1595930172268",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "@New_Menu:Menu",
+      "dialog_node": "node_16_1595930172268"
+    },
+    {
+      "type": "standard",
+      "title": "User Says No",
+      "output": {
+        "generic": [
+          {
+            "title": "Select From The Options Given",
+            "options": [
+              {
+                "label": "Access the Menu Again",
+                "value": {
+                  "input": {
+                    "text": "Menu"
+                  }
+                }
+              },
+              {
+                "label": "I want to stop this chat.",
+                "value": {
+                  "input": {
+                    "text": "Exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_19_1595930191162",
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_21_1595930191162",
+      "previous_sibling": "node_20_1595930191162"
+    },
+    {
+      "type": "standard",
+      "title": "User Yes",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_19_1595930191162",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1595926911401"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_20_1595930191162"
+    },
+    {
+      "type": "standard",
+      "title": "Pressure on eyes while Breathing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted your response."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you feel any other symptoms?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595839723361",
+      "context": {
+        "Breathing": "Pressure on eyes while breathing"
+      },
+      "conditions": "@Gasping-for-air-or-extreme-difficulty-breathign:(Pressure on eyes while Breathing)",
+      "dialog_node": "node_11_1595842093840",
+      "previous_sibling": "node_8_1595842045183"
+    },
+    {
+      "type": "standard",
+      "title": "Heavy Breathing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted your response."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you feel any other symptoms?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595839723361",
+      "context": {
+        "Breathing": "Heavy Breathing"
+      },
+      "conditions": "@Gasping-for-air-or-extreme-difficulty-breathign:(Heavy Breathing)",
+      "dialog_node": "node_5_1595842004292",
+      "previous_sibling": "node_1_1595841679738"
+    },
+    {
+      "type": "standard",
+      "title": "Unusual Sounds While Breathing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted your response."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you feel any other symptoms?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595839723361",
+      "context": {
+        "Breathing": "Unusual Sounds While Breathing"
+      },
+      "conditions": "@Gasping-for-air-or-extreme-difficulty-breathign:(Unusual Sounds While Breathing)",
+      "dialog_node": "node_8_1595842045183",
+      "previous_sibling": "node_5_1595842004292"
+    },
+    {
+      "type": "standard",
+      "title": "Fast Breathing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I have noted your response."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you feel any other symptoms?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595839723361",
+      "context": {
+        "Breathing": "Fast Breathing"
+      },
+      "conditions": "@Gasping-for-air-or-extreme-difficulty-breathign:(Fast Breathing)",
+      "dialog_node": "node_1_1595841679738"
+    },
+    {
+      "type": "standard",
+      "title": "good morning || good afternoon || good evening",
+      "parent": "node_3_1596008716103",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#mrng_afternoon_evening || @Mrng_afternoon_night",
+      "dialog_node": "node_9_1596008985847",
+      "previous_sibling": "node_6_1596008725131"
+    },
+    {
+      "type": "standard",
+      "title": "hello node",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.ibb.co/s36c3NH/Whats-App-Image-2020-07-29-at-1-50-31-PM.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1596008716103",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1596008985847"
+      },
+      "conditions": "#greetings_hi",
+      "dialog_node": "node_6_1596008725131"
+    },
+    {
+      "type": "standard",
+      "title": "no confirmation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595841679738",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1595843135862"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_7_1595841917787",
+      "previous_sibling": "node_10_1595841784686"
+    },
+    {
+      "type": "standard",
+      "title": "yes confirmation",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1595841679738",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_10_1595841784686"
+    },
+    {
+      "type": "standard",
+      "title": "Impaired Taste or Smell",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595849834969",
+      "context": {
+        "Symptom-Check-5-8": "Impaired Taste or Smell"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595850815579"
+      },
+      "conditions": "@Symptoms-Node-Symptoms-Check-5:(Impaired Taste or Smell)",
+      "dialog_node": "node_8_1595851606335",
+      "previous_sibling": "node_1_1595851538012"
+    },
+    {
+      "type": "standard",
+      "title": "Diarrhea",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595849834969",
+      "context": {
+        "Symptom-Check-5-5": "Diarrhea"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595850815579"
+      },
+      "conditions": "@Symptoms-Node-Symptoms-Check-5:Diarrhea",
+      "dialog_node": "node_8_1595851094688",
+      "previous_sibling": "node_8_1595851011666"
+    },
+    {
+      "type": "standard",
+      "title": "Sore Throat",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595849834969",
+      "context": {
+        "Symptom-Check-5-7": "Sore Throat"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595850815579"
+      },
+      "conditions": "@Symptoms-Node-Symptoms-Check-5:(Sore Throat)",
+      "dialog_node": "node_1_1595851538012",
+      "previous_sibling": "node_10_1595851174726"
+    },
+    {
+      "type": "standard",
+      "title": "Chills",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595849834969",
+      "context": {
+        "Symptom-Check-5-3": "Chills"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595850815579"
+      },
+      "conditions": "@Symptoms-Node-Symptoms-Check-5:Chills",
+      "dialog_node": "node_4_1595850908493",
+      "previous_sibling": "node_1_1595850843726"
+    },
+    {
+      "type": "standard",
+      "title": "Headache",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595849834969",
+      "context": {
+        "Symptom-Check-5-4": "Headache"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595850815579"
+      },
+      "conditions": "@Symptoms-Node-Symptoms-Check-5:Headache",
+      "dialog_node": "node_8_1595851011666",
+      "previous_sibling": "node_4_1595850908493"
+    },
+    {
+      "type": "standard",
+      "title": "Muscle Pain",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595849834969",
+      "context": {
+        "Symptom-Check-5-2": "Muscle Pain"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595850815579"
+      },
+      "conditions": "@Symptoms-Node-Symptoms-Check-5:(Muscle Pain)",
+      "dialog_node": "node_1_1595850843726",
+      "previous_sibling": "node_3_1595850730470"
+    },
+    {
+      "type": "standard",
+      "title": "None of the Above",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595849834969",
+      "context": {
+        "Symptom-Check-5-9": "None"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595850815579"
+      },
+      "conditions": "@Symptoms-Node-Symptoms-Check-5:(None of the above)",
+      "dialog_node": "node_2_1595851700493",
+      "previous_sibling": "node_8_1595851606335"
+    },
+    {
+      "type": "standard",
+      "title": "Nausea",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595849834969",
+      "context": {
+        "Symptom-Check-5-6": "Nausea"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595850815579"
+      },
+      "conditions": "@Symptoms-Node-Symptoms-Check-5:Nausea",
+      "dialog_node": "node_10_1595851174726",
+      "previous_sibling": "node_8_1595851094688"
+    },
+    {
+      "type": "standard",
+      "title": "Fatigue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595849834969",
+      "context": {
+        "Symptom-Check-5-1": "Fatigue"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595850815579"
+      },
+      "conditions": "@Symptoms-Node-Symptoms-Check-5:Fatigue",
+      "dialog_node": "node_3_1595850730470"
+    },
+    {
+      "type": "standard",
+      "title": "Physical Contact with that person",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I am now done with asking the questions. You will see your results shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595858619879",
+      "context": {
+        "contact-3": "direct physical contact"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595859697645"
+      },
+      "conditions": "@Symptom-Node-Contact-Question:(direct physical contact)",
+      "dialog_node": "node_9_1595860066519",
+      "previous_sibling": "node_5_1595859984472"
+    },
+    {
+      "type": "standard",
+      "title": "Direct Care Without Protection",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I am now done with asking the questions. You will see your results shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595858619879",
+      "context": {
+        "contact-2": "direct care of patient without protection"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595859697645"
+      },
+      "conditions": "@Symptom-Node-Contact-Question:(direct care not protect)",
+      "dialog_node": "node_5_1595859984472",
+      "previous_sibling": "node_7_1595859260018"
+    },
+    {
+      "type": "standard",
+      "title": "Face to Face Contact",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I am now done with asking the questions. You will see your results shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595858619879",
+      "context": {
+        "contact-4": "face to face"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595859697645"
+      },
+      "conditions": "@Symptom-Node-Contact-Question:(face to face)",
+      "dialog_node": "node_5_1595860537499",
+      "previous_sibling": "node_9_1595860066519"
+    },
+    {
+      "type": "standard",
+      "title": "None of the above",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I am now done with asking the questions. You will see your results shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595858619879",
+      "context": {
+        "contact-6": "no contact"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595859697645"
+      },
+      "conditions": "@Symptom-Node-Contact-Question:(None of the above)",
+      "dialog_node": "node_9_1595860684534",
+      "previous_sibling": "node_4_1595860597845"
+    },
+    {
+      "type": "standard",
+      "title": "Other type of contact",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I am now done with asking the questions. You will see your results shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595858619879",
+      "context": {
+        "contact-5": "other type of contact"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595859697645"
+      },
+      "conditions": "@Symptom-Node-Contact-Question:(Other type of contact)",
+      "dialog_node": "node_4_1595860597845",
+      "previous_sibling": "node_5_1595860537499"
+    },
+    {
+      "type": "standard",
+      "title": "Direct Care Protect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I am now done with asking the questions. You will see your results shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595858619879",
+      "context": {
+        "contact-1": "direct care of patient with protection"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1595859697645"
+      },
+      "conditions": "@Symptom-Node-Contact-Question:(direct care protect)",
+      "dialog_node": "node_7_1595859260018"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {},
+      "parent": "node_14_1595842492029",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1595843135862"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_16_1595842492037",
+      "previous_sibling": "node_15_1595842492037"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1595842492029",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_15_1595842492037"
+    },
+    {
+      "type": "standard",
+      "title": "User Says No",
+      "output": {
+        "generic": [
+          {
+            "title": "Select From The Options Given",
+            "options": [
+              {
+                "label": "Access the Menu Again",
+                "value": {
+                  "input": {
+                    "text": "Menu"
+                  }
+                }
+              },
+              {
+                "label": "I want to stop this chat.",
+                "value": {
+                  "input": {
+                    "text": "Exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_25_1595930211348",
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_27_1595930211348",
+      "previous_sibling": "node_26_1595930211348"
+    },
+    {
+      "type": "standard",
+      "title": "User Yes",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_25_1595930211348",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1595926911401"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_26_1595930211348"
+    },
+    {
+      "type": "standard",
+      "title": "Do you want anymore information?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do You Want Any More Information?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select From The Given Options",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_12_1595930172254",
+      "dialog_node": "node_13_1595930172268"
+    },
+    {
+      "type": "standard",
+      "title": "no confirmation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay Noted Moving on to the next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595842004292",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1595843135862"
+      },
+      "conditions": "@Confirmation_Yes_No:No",
+      "dialog_node": "node_7_1595842004298",
+      "previous_sibling": "node_6_1595842004298"
+    },
+    {
+      "type": "standard",
+      "title": "yes confirmation",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1595842004292",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595836202326"
+      },
+      "conditions": "@Confirmation_Yes_No:Yes",
+      "dialog_node": "node_6_1595842004298"
+    },
+    {
+      "type": "standard",
+      "title": "very high fever",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$name this is not a normal human body temperature!!\nI have noted it down. You must ensure that you take proper care and visit a doctor.\nI have a few more questions for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595855362342",
+      "context": {
+        "fever-4": "very high fever"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595857152502"
+      },
+      "conditions": "@fever:(very high fever)",
+      "dialog_node": "node_4_1595857467146",
+      "previous_sibling": "node_5_1595857399564"
+    },
+    {
+      "type": "standard",
+      "title": "Fever",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$name you have a slight fever.\nI have noted it down. Make sure you take a generally prescribed medicine.\nI have a few more questions for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595855362342",
+      "context": {
+        "fever-2": "fever"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595857152502"
+      },
+      "conditions": "@fever:fever",
+      "dialog_node": "node_8_1595857190730",
+      "previous_sibling": "node_10_1595857019305"
+    },
+    {
+      "type": "standard",
+      "title": "high fever",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$name you have a high fever\nI have noted it down. Please visit a doctor.\nI have a few more questions for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595855362342",
+      "context": {
+        "fever-3": "high fever"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595857152502"
+      },
+      "conditions": "@fever:(high fever)",
+      "dialog_node": "node_5_1595857399564",
+      "previous_sibling": "node_8_1595857190730"
+    },
+    {
+      "type": "standard",
+      "title": "normal",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$name this is a normal human body temperature!!\nStill, I have noted it down.\nI have a few more questions for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595855362342",
+      "context": {
+        "fever-1": "normal"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595857152502"
+      },
+      "conditions": "@fever:normal",
+      "dialog_node": "node_10_1595857019305"
+    },
+    {
+      "type": "folder",
+      "title": "if user types.",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1596007680891",
+      "previous_sibling": "node_3_1595929536242"
+    },
+    {
+      "type": "standard",
+      "title": "Menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is what I can do for you:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Select from one of the options",
+            "options": [
+              {
+                "label": "Symptoms Assessment",
+                "value": {
+                  "input": {
+                    "text": "Symptom_Assessment"
+                  }
+                }
+              },
+              {
+                "label": "Corona Virus Infographics",
+                "value": {
+                  "input": {
+                    "text": "Corona_Info"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "dialog_node": "node_4_1595827233708",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. What name can I call you by?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_5_1595832082365"
+    },
+    {
+      "type": "folder",
+      "title": "ENTIRE ASSESSMENT",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1595925493999",
+      "previous_sibling": "node_4_1595827233708"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1595827233708"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1595925929883",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "folder",
+      "title": "CORONA_VIRUS_INFOGRAPHIUC",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1595929536242",
+      "previous_sibling": "node_10_1595925493999"
+    },
+    {
+      "type": "standard",
+      "title": "GoodBye Node",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.ibb.co/k8nB0MZ/1-1.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1595925929883",
+      "previous_sibling": "node_2_1596007680891"
+    },
+    {
+      "type": "standard",
+      "title": "Disclaimer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello there. Before we begin I need you to understand a few things:"
+              },
+              {
+                "text": "1)Please note that this service is for informational purposes and is not a qualified medical opinion."
+              },
+              {
+                "text": "2)In case of a health emergency, call your local emergency number immediately."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Do You Agree?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1595832082365"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "HEALTH_BOT",
+  "language": "en",
+  "description": ""
+}
