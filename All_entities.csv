@@ -1,0 +1,75 @@
+Confirmation_Yes_No,No,never,not,nope,naah,noit
+Confirmation_Yes_No,Yes,yeah,okay,yep,sure,yup
+corona_infographics_menu,Corona Virus
+corona_infographics_menu,Symptoms
+corona_infographics_menu,Prevention
+corona_infographics_menu,Entire_Info
+corona_infographics_menu,How Does it Spread
+cough_frequency,5 cough
+cough_frequency,2 cough
+cough_frequency,10 cough
+fever,very high fever
+fever,high fever
+fever,fever
+fever,normal
+Gasping-for-air-or-extreme-difficulty-breathign,Pressure on eyes while Breathing
+Gasping-for-air-or-extreme-difficulty-breathign,Unusual Sounds While Breathing
+Gasping-for-air-or-extreme-difficulty-breathign,Fast Breathing
+Gasping-for-air-or-extreme-difficulty-breathign,Heavy Breathing
+Goodbyes,goodbye,bie bie,bye bye,adiós,goodbyes,adieu,adios,bye,farewell
+menu,FAQ,faqs,info,forums,questions
+menu,Corona_Info,Corona info,corona details
+menu,Corona_India_Count,Corona count india,india count,active cases in india,active corona cases in india
+menu,Corona_World_Count,Corona count world,world count,active cases in the world,active corona cases in the world
+menu,Symptom_Assessment,symptoms,symptom,symptons,symtoms,assessment,start screening,screening,symptoms check
+menu_,menu,meeenu,meenu,entrees,dropdown,menus,menuuuu,menuuu,menuu
+Mrng_afternoon_night,Good Evening,gd evening,gd evenin,Gud evening,Evening
+Mrng_afternoon_night,Good Morning,gd morning,gd mrng,gud morning,gud mrng,mrng,gm,mornings,morning
+Mrng_afternoon_night,Good Afternoon,gud afternoon,afternoon
+New_Menu,Menu
+New_Menu,Exit
+Symptom_assessment,symptom check,check my symptoms,symptom,symptoms,do I have corona?,corona symptoms
+Symptom_assessment,symptom,symptoms,symtoms,symptons,diagnosis
+Symptom-Node-Contact-Question,direct care not protect
+Symptom-Node-Contact-Question,Other type of contact
+Symptom-Node-Contact-Question,direct care protect
+Symptom-Node-Contact-Question,direct physical contact
+Symptom-Node-Contact-Question,face to face
+Symptom-Node-Contact-Question,None of the above
+Symptom-Node-Gender-Question,Male,males,men,masculine,man,boys,macho
+Symptom-Node-Gender-Question,Others,other
+Symptom-Node-Gender-Question,Female,females,woman,women,girl,feminine
+Symptom-Node-Symptom-Check-1,Cancer
+Symptom-Node-Symptom-Check-1,Long-term stay at a care facility or nursing home
+Symptom-Node-Symptom-Check-1,None of the above
+Symptom-Node-Symptom-Check-1,Diseases or drugs that weaken immune system
+Symptom-Node-Symptom-Check-1,Obesity
+Symptom-Node-Symptom-Check-2,Severe constant dizziness or lightheadedness
+Symptom-Node-Symptom-Check-2,Severe chest pain or pressure
+Symptom-Node-Symptom-Check-2,Gasping for air or extreme difficulty breathing
+Symptom-Node-Symptom-Check-2,Blue-colored lips or face
+Symptom-Node-Symptom-Check-2,None of the above
+Symptom-Node-Symptom-Check-3,New or continuous seizures
+Symptom-Node-Symptom-Check-3,None of the above
+Symptom-Node-Symptom-Check-3,Slurred speech
+Symptom-Node-Symptom-Check-3,Severe difficulty waking
+Symptom-Node-Symptom-Check-3,New or increasing confusion
+Symptom-Node-Symptom-Check-4,Moderate to severe difficulty breathing
+Symptom-Node-Symptom-Check-4,Signs of low blood pressure
+Symptom-Node-Symptom-Check-4,Coughing up blood
+Symptom-Node-Symptom-Check-4,None of the above
+Symptom-Node-Symptom-Check-6,Shortness of breadth
+Symptom-Node-Symptom-Check-6,Fever or Feeling Feverish
+Symptom-Node-Symptom-Check-6,Cough
+Symptom-Node-Symptom-Check-6,None of the above
+Symptoms-Node-Symptoms-Check-5,Headache
+Symptoms-Node-Symptoms-Check-5,Diarrhea
+Symptoms-Node-Symptoms-Check-5,Nausea
+Symptoms-Node-Symptoms-Check-5,Sore Throat
+Symptoms-Node-Symptoms-Check-5,Fatigue
+Symptoms-Node-Symptoms-Check-5,Impaired Taste or Smell
+Symptoms-Node-Symptoms-Check-5,Muscle Pain
+Symptoms-Node-Symptoms-Check-5,Chills
+Symptoms-Node-Symptoms-Check-5,None of the above
+user_types_corona_infographics,information,info,details,data,knowledge,informations,resources
+user_types_corona_infographics,corona information,corona innformation,corona infographics
